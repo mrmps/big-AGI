@@ -1,0 +1,24 @@
+{
+  "yaml_records": 51,
+  "before_records": 50,
+  "after_records": 51,
+  "added": {
+    "id": "context-dev-web-search",
+    "name": "Context.dev Web Search",
+    "url": "https://github.com/mrmps/inspect-context-dev",
+    "desc": "Web search with query-relevant passages and source citations for Inspect evaluations.",
+    "author": "Mike",
+    "author_url": "https://github.com/mrmps",
+    "categories": [
+      "Tooling"
+    ]
+  },
+  "gate_trivial": true,
+  "changed_files": [
+    {
+      "filename": "docs/extensions/extensions.yml",
+      "additions": 6,
+      "deletions": 0
+    }
+  ]
+}

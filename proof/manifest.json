@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/enricoros/big-AGI",
+  "base": "f157841f5c644e42a55f548a1ebf401488c45565",
+  "candidate": "312ed01743fa9ec265b468449ada31fd3bf1af36",
+  "screenshots": "1440x1000 desktop and 390x844 mobile; live answer1280x577",
+  "model": "deterministic local OpenAI-compatible mock",
+  "retrieval": "real Context API via application tRPC",
+  "checks": {
+    "offlinePassed": 133,
+    "offlineSkipped": 36,
+    "offlineFailed": 0,
+    "liveHttpCasesPassed": 6,
+    "tscheck": "passed app and tools",
+    "lint": "passed"
+  },
+  "replay": [
+    "In the candidate checkout, set CONTEXT_DEV_API_KEY and run npm run dev -- --port 3437",
+    "Run node proof/mock-llm.mjs in this evidence checkout (port3438)",
+    "From the candidate checkout, run python3 /path/to/evidence/proof/replay.py"
+  ],
+  "limits": "Integration behavior only; no real model quality assessment. Live retrieval consumes credits."
+}

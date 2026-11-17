@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "gitHead": "312ed01743fa9ec265b468449ada31fd3bf1af36",
+  "startedAt": "2026-11-17T08:10:55.017829+00:00",
+  "finishedAt": "2026-11-17T08:10:56.689856+00:00",
+  "uiUrl": "http://localhost:3437",
+  "browserSession": "bigagi-e2e",
+  "model": "deterministic local mock",
+  "retrieval": "real Context API via application tRPC route",
+  "assertions": [
+    "provider selected through UI",
+    "provider/domain persist after reload",
+    "/react submitted through UI",
+    "real Context route requested",
+    "search action fed actual source observation to second model turn",
+    "mock refuses success without official source",
+    "answer and matching citation render in UI"
+  ],
+  "source": "https://www.context.dev/search-api",
+  "retrievedSourceCount": 10,
+  "limitation": "Validates integration, not real LLM answer quality."
+}

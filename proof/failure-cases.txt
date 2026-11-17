@@ -1,0 +1,11 @@
+Prepared before integration implementation.
+1. Context is absent from provider selector or cannot save/reload selection.
+2. ReAct search routes to Google despite selecting Context.
+3. Context server/client configuration drops API key or sends it to mock model.
+4. Live Context retrieval fails or returns empty/malformed source pages.
+5. ReAct parser never runs its action or never feeds observation to second model turn.
+6. Mock model fabricates success without an official URL in actual observation.
+7. UI never displays completed answer or its source link.
+8. Credentials leak into logs, screenshot, replay script, or evidence JSON.
+Pass gate: select Context via UI, submit /react via UI, observe mock search action then grounded answer from live source observation, render matching answer/source, retain replay script + sanitized JSON + screenshot.
+Model is explicitly mocked; retrieval is real. Does not assess language model quality.

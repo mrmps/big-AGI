@@ -1,0 +1,15 @@
+[
+  {
+    "time": "2026-11-17T08:10:55.184Z",
+    "kind": "search-action",
+    "model": "context-e2e-mock"
+  },
+  {
+    "time": "2026-11-17T08:10:56.503Z",
+    "kind": "grounded-answer",
+    "source": "https://www.context.dev/search-api",
+    "sourceCount": 10,
+    "observationCharacters": 3974,
+    "excerpt": "We use Context.dev to give AI agents ability to scrape webpages, take screenshots, and also extract specific content from webpages.”Read the case study · The Context.dev web search API returns ranked, live results for a plain-language query."
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "base": "http://localhost:3437",
+  "cases": [
+    {
+      "case": "server key",
+      "status": 200,
+      "results": [
+        {
+          "title": "GitHub - enricoros/big-AGI: AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. \u00b7 GitHub",
+          "link": "https://github.com/enricoros/big-AGI",
+          "snippet": "This is the open-source foundation of Big-AGI, the multi-model AI workspace for experts."
+        },
+        {
+          "title": "GitHub - hphproton/big-AGI: AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. It features AI personas, AGI functions, multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. \u00b7 GitHub",
+          "link": "https://github.com/hphproton/big-AGI",
+          "snippet": "This is the open-source foundation of Big-AGI, the multi-model AI workspace for experts."
+        },
+        {
+          "title": "GitHub - lev-os/big-AGI: AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. \u00b7 GitHub",
+          "link": "https://github.com/lev-os/big-AGI",
+          "snippet": "This is the open-source foundation of Big-AGI, the multi-model AI workspace for experts."
+        }
+      ]
+    },
+    {
+      "case": "client key",
+      "status": 200,
+      "results": [
+        {
+          "title": "GitHub - enricoros/big-AGI: AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. \u00b7 GitHub",
+          "link": "https://github.com/enricoros/big-AGI",
+          "snippet": "This is the open-source foundation of Big-AGI, the multi-model AI workspace for experts."
+        },
+        {
+          "title": "GitHub - confiks/big-AGI: AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. \u00b7 GitHub",
+          "link": "https://github.com/confiks/big-AGI",
+          "snippet": "This is the open-source foundation of Big-AGI, the multi-model AI workspace for experts."
+        },
+        {
+          "title": "GitHub - hphproton/big-AGI: AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. It features AI personas, AGI functions, multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. \u00b7 GitHub",
+          "link": "https://github.com/hphproton/big-AGI",
+          "snippet": "This is the open-source foundation of Big-AGI, the multi-model AI workspace for experts."
+        }
+      ]
+    },
+    {
+      "case": "invalid client overrides server",
+      "status": 502,
+      "message": "Invalid Context.dev API key. (HTTP 401)"
+    },
+    {
+      "case": "invalid count",
+      "status": 400,
+      "message": "[\n  {\n    \"origin\": \"number\",\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"inclusive\": true,\n    \"path\": [\n      \"items\"\n    ],\n    \"message\": \"Too small: expected number to be >=1\"\n  }\n]"
+    },
+    {
+      "case": "invalid domain",
+      "status": 400,
+      "message": "[\n  {\n    \"code\": \"custom\",\n    \"path\": [\n      \"restrictToDomain\"\n    ],\n    \"message\": \"Enter a domain, such as example.com\"\n  }\n]"
+    },
+    {
+      "case": "capability discovery",
+      "hasContextSearch": true,
+      "keyExposed": false
+    }
+  ]
+}

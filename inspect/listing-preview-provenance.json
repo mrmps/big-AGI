@@ -1,0 +1,38 @@
+{
+  "baseline_commit": "b1816681f4f4b7e6fb492c555befe1bb724706f0",
+  "candidate_commit": "9dac00d50",
+  "repo": "https://github.com/UKGovernmentBEIS/inspect_ai",
+  "capture_method": "agent-browser",
+  "session": "inspect-listing-30bd3460dd9d",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "query": "Context",
+  "before_matches": 0,
+  "after_matches": 1,
+  "before_total": 50,
+  "after_total": 51,
+  "rendering": "Actual upstream docs/extensions/generate.py, extensions-app.js, and shared listing renderer using baseline/candidate YAML. Context MCP fetched live HTML shell and upstream styles from the published directory; local preview supplies generated JSON and actual JavaScript.",
+  "shell_source_url": "https://inspect.aisi.org.uk/extensions/index.html",
+  "limitations": "Local renderer preview, not a full Quarto documentation build. Existing upstream plural result-count wording is unchanged.",
+  "visual_inspection": "Both captures loaded as images and inspected; comparable dimensions/state and correct Context.dev card/link text.",
+  "images": [
+    {
+      "state": "before",
+      "path": "/Users/mike/.codex/outputs/inspect-context-dev/directory-before.png",
+      "sha256": "94262b89fc40c8fc8d5706f1a2e5da7388b758ca8e3868a31820137f9bc72dde",
+      "width": 1440,
+      "height": 1100,
+      "local_url": "http://127.0.0.1:8789/before/index.html"
+    },
+    {
+      "state": "after",
+      "path": "/Users/mike/.codex/outputs/inspect-context-dev/directory-after.png",
+      "sha256": "7fbebe4515f74508d59fba22d49aab0d47dcb86a1197f37a42442c5b7857f797",
+      "width": 1440,
+      "height": 1100,
+      "local_url": "http://127.0.0.1:8789/after/index.html"
+    }
+  ]
+}

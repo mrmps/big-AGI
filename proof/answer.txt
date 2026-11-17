@@ -1,0 +1,73 @@
+Chats
+
+New chat
+Today
+Chat
+Chat
+Chat
+Yesterday
+Chat
+Chat
+Chat
+Import
+Export
+Delete all 6 chats
+Chat
+Default
+? [context e2e mock]
+
+/react
+What does Context.dev offer? Verify using its official website and cite the source.
+
+Sent at 12:10 AM
+react-openai-context-e2e-mock
+
+Live retrieval verified. We use Context.dev to give AI agents ability to scrape webpages, take screenshots, and also extract specific content from webpages.”Read the case study · The Context.dev web search API returns ranked, live results for a plain-language query. Source: Web Search API for AI Agents: 10,000 Free Results a Month.
+
+Updated at 12:10 AM
+
+Reason+Act Internal Monologue
+
+⌃
+M
+ 
+Microphone
+⌃
+⇧
+F
+ 
+Attach File
+⌃
+⇧
+L
+ 
+Attach Link
+⌃
+⇧
+V
+ 
+Attach Clipboard
+⌃
+⇧
+Z
+ 
+Retry
+⌃
+⇧
+B
+ 
+Beam Edit
+Attach
+Chat
+Beam
+Call
+Window
+Split Right
+Actions
+Folder
+Branch
+Compact
+Restart
+Cleanup
+Persona
+Show Instruction
